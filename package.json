@@ -5,9 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
     "dev": "vite",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && node ./deploy/ghpages.cjs",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
