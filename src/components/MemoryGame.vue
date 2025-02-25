@@ -146,6 +146,7 @@ export default {
 
 .card-back {
     background-color: white;
+    color: black;
     border: 2px solid black;
     width: 100%;
     height: 100%;
